@@ -65,7 +65,6 @@ done
 ### Call genotypes of the selection of SNPs with samtools mpileup v1.7 + bcftools call v1.4
 # Options: -A: do not discard anomalous read pairs, -q 4: uniquely mapping reads, -t AD,DP: add AD and DP tags, -l: positions file, -f: fasta reference file, -g: BCF format, call -m: multiallelic caller, -O b: output BCF -f GQ: add GQ field
 
-mkdir $path/vcf
 samtools mpileup -A -q 4 -t AD,DP -l $path/SNPs/hg19_snp150_rmi.bed -f /biodata/indices/species/ENSEMBL_nr/Hsapiens/Hsapiens.GRCh37_72.fa $path/$family/markdup_*.bam -g | bcftools call -m - -O b -f GQ > $path/$family/hg19_snp150_markdup_rmi_hisat_$family.q4.bcf
 
 

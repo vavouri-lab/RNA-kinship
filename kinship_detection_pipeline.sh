@@ -1,7 +1,7 @@
 
 path=/path/to/your/folder
 #provide a name for the family or group of individuals
-family=SRR
+family=CU1463
 #individuals to be analyzed
 samples="SRR1258217
 SRR1258218

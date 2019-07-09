@@ -87,7 +87,7 @@ plink --bfile $input.maf$maf --genome full --out $input.maf$maf
 ### Pedigree representation with PRIMUS v1.9.0
 # Options: -p: input plink .genome file, -t 0.2 (or -t 0.375): minimum level of relatedness for related individuals (otherwise they will be considered unrelated), --sex_file: a file with all samples FID + IID + sex (1=male, 2=female), -o: output directory (will be created)
 
-run_PRIMUS.pl -p $path/$family/$input.maf$maf.genome -t 0.2 --sex_file $path/$family/$family.sex -o $path/$family/primus.$family
+run_PRIMUS.pl -p $path/$family/$input.maf$maf.genome -t 0.2 --sex_file $path/$family.sex -o $path/$family/primus.$family
 
 
 

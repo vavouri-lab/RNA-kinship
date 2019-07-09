@@ -17,7 +17,7 @@ cd $path/$family
 # Options: --vcf input VCF file, --keep: list of individuals to keep, --out: output file, --recode: generate new file
 
 input=ALL.unrelated_samples.vcf.gz
-/soft/bio/vcftools-0.1.14/bin/vcftools --vcfgz $path/$input --keep keep_list.txt --out $family.founders --recode
+/soft/bio/vcftools-0.1.14/bin/vcftools --vcfgz $path/$input --keep ../keep_list.txt --out $family.founders --recode
 
 
 ### Remove indels with vcftools v0.1.14

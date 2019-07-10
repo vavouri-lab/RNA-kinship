@@ -1,10 +1,10 @@
 # Kinship Detection
 
-These are the scripts used for kinship detection using expression data in Blay, Casas, Galván-Femenía, Graffelman, de Cid, Vavouri. Assessment of kinship detection using RNA-seq data. bioRxiv https://doi.org/10.1101/546937
+These are the scripts used for kinship detection using expression data in Blay, Casas, Galván-Femenía, Graffelman, de Cid, Vavouri. Assessment of kinship detection using RNA-seq data. bioRxiv https://doi.org/10.1101/546937.
 
 The kinship_detection_pipeline.sh scripts do all the analysis, from FASTQ files to (i) a genome file with IBD estimates that can be ploted in R as described in Galván-Femenía et al. (2017), and (ii) a pedigree representation of all the detected familial relationships.
 
-FASTQ files of all the individuals must be stored at [your_folder]/fastq/
+FASTQ files of all the individuals must be stored at [your_folder]/fastq/.
 
 Additionally, other files are required:
 - A BED file with all common SNPs stored at [your_folder]/SNPs/hg19_snp150.bed
@@ -16,7 +16,7 @@ Additionally, other files are required:
 
 # Family Simulation
 
-These are the scripts used to simulate related individuals from a group of unrelated individuals in Blay, Casas, Galván-Femenía, Graffelman, de Cid, Vavouri. Assessment of kinship detection using RNA-seq data. bioRxiv https://doi.org/10.1101/546937
+These are the scripts used to simulate related individuals from a group of unrelated individuals in Blay, Casas, Galván-Femenía, Graffelman, de Cid, Vavouri. Assessment of kinship detection using RNA-seq data. bioRxiv https://doi.org/10.1101/546937.
 
 The family_simulation.R simulates the genotypes of the offspring from haplotype data of real unrelated individuals (transformed VCF file). The family_simulation.sh prepares the input VCF file with the haplotypes (transformed VCF file) for the family simulation, and after the simulation prepares the output to be a VCF file with genotype data for all the individuals (real and simulated individuals).
 

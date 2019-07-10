@@ -30,7 +30,7 @@ samtools v1.7
 vcftools v0.1.14   
 plink v1.9   
 PRIMUS v1.9.0   
-R v3.4   
+R v3.5   
 
 
 # Required R packages

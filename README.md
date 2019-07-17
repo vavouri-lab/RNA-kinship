@@ -1,6 +1,6 @@
 # Kinship Detection
 
-These are the scripts used for kinship detection using expression data in Blay, Casas, Galván-Femenía, Graffelman, de Cid, Vavouri. Assessment of kinship detection using RNA-seq data. bioRxiv https://doi.org/10.1101/546937.
+This repository contains the scripts used for kinship detection using RNA-seq data as described in Blay, Casas, Galván-Femenía, Graffelman, de Cid, Vavouri. Assessment of kinship detection using RNA-seq data. bioRxiv https://doi.org/10.1101/546937.
 
 The kinship_detection_pipeline.sh scripts do all the analysis, from FASTQ files to (i) a .genome file with IBD estimates that can be ploted in R as described in Galván-Femenía et al. (2017), and (ii) a pedigree representation of all the detected familial relationships.
 

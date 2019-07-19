@@ -18,7 +18,7 @@ Additionally, other files are required:
 
 # Family Simulation
 
-The family_simulation.R script simulates the genotypes of the offspring from haplotype data of real unrelated individuals (transformed VCF file). The script prepares the input VCF file with the haplotypes (transformed VCF file) for the family simulation, and after the simulation converts the output to a VCF file with genotype data for all the individuals (real and simulated individuals).
+The family_simulation.sh script prepares the input VCF file with the haplotypes (transformed VCF file) for the family simulation, and after the simulation converts the output to a VCF file with genotype data for all the individuals (real and simulated individuals). The family_simulation.R script simulates the genotypes of the offspring from haplotype data of real unrelated individuals (transformed VCF file). 
 
 The VCF file with haplotype data of unrelated individuals must be stored at [your_folder]/ALL.unrelated_samples.vcf.gz, and a list of the selected individuals to perform the simulation must be stored at [your_folder]/keep_list.txt.
 
